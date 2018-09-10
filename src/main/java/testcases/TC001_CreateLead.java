@@ -19,6 +19,7 @@ public class TC001_CreateLead extends ProjectMethods {
 	}
 	@Test(dataProvider="fetchData")
 	public  void createLead(String Uname, String pword,String Cname, String fname, String lname, String cityName)   {
+//		create lead steps
 		new LoginPage()
 		.typeUsername(Uname)
 		.typePassword(pword)
